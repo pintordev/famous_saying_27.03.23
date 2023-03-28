@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("== Famous saying application ==");
+
 
         Scanner sc = new Scanner(System.in);
 
@@ -12,6 +12,6 @@ public class Main {
 
         sc.close();
 
-        System.out.println("Application has terminated.");
+        System.out.println("Application has been terminated.");
     }
 }
