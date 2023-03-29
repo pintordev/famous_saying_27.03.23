@@ -1,7 +1,7 @@
-package org.example;
+package application;
 
 public class Ordinal {
-        public static String convert(int order) {
+    public static String convert(int order) {
         if (order % 10 == 1) {
             return order + "st";
         } else if (order % 10 == 2) {
